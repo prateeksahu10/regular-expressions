@@ -4,7 +4,7 @@ REGULAR EXPRESSION
 
 Q.1- Write a Regular Expressions to Find a valid email address from a text.
 
-Solution -: '(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)'
+Solution -: \w[_a-zA-Z0-9.]*[@](gmail.com|yahoo.com)
 
 Q.2- Write a Regular Expressions to find a valid Indian phone number from a text.(Valid Indian numbers will start with "+91-" and after that [6-9] followed by 9 digits. )
 
