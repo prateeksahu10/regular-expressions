@@ -1,0 +1,11 @@
+REGULAR EXPRESSION
+
+
+
+Q.1- Write a Regular Expressions to Find a valid email address from a text.
+
+Solution -: '(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)'
+
+Q.2- Write a Regular Expressions to find a valid Indian phone number from a text.(Valid Indian numbers will start with "+91-" and after that [6-9] followed by 9 digits. )
+
+Solution -: ('[+]\d[91]-[6-9]\d{9}')
